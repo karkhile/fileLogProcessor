@@ -23,13 +23,13 @@ The project requires jre 1.7 and above
 
 1.	Build the project using “mvn clean install” command and then execute the below command: 
 
-	java -classpath < fileLogprocessor-0.0.1-SNAPSHOT.jar > logs.logProcessor.LogProcessingApp --max-threads=<number of threads> --dir=<directory path for the log files>
+	java -classpath < fileLogprocessor-0.0.1-SNAPSHOT.jar > logs.logProcessor.LogProcessingApp --max-threads=<number of threads> --dir= <directory path for the log files>
 
 	eg : java -classpath fileLogprocessor-0.0.1-SNAPSHOT.jar logs.logProcessor.LogProcessingApp --max-thread=4 --dir=src/main/resources/testInput/ 
 
 2.	Import the Project in eclipse and run the project as “ run configuration”, select the main class as LogProcessorApp and  in the          arguments tab provide below details
 
-	--max-threads=<number of threads> --dir=<directory path for the log files>
+	--max-threads=<number of threads> --dir= <directory path for the log files>
 
 	eg: --max-thread=4 --dir=src/main/resources/testInput/
 
