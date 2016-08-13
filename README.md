@@ -24,5 +24,3 @@ The project requires jre 1.7 and above
 
 	eg: --max-thread=4 --dir=/Users/Jhon/logs/
 
-
-github url: https://github.com/karkhile/fileLogProcessor
